@@ -1,4 +1,4 @@
-*{
+* {
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -6,134 +6,104 @@
 }
 
 .container {
-    width: 1200;
+    width: 900px;
     margin: 0 auto;
 }
 
 .all-cards {
-   display: flex;
-   margin-left: 285px;
-   margin-top: 100px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
 }
 
 
 
 .yellow-card {
-    background-color:#E28625;
+    background-color: #E28625;
     width: 300px;
     border-radius: 8px;
-   
+    padding: 48px;
+    box-sizing: border-box;
+
 }
 
-.card-img {
-    padding-left: 48px;
-    padding-top: 48px;
-}
+
 
 .card-h2 {
-   
+
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
     line-height: 48px;
     text-transform: uppercase;
     color: white;
-    padding-left: 48px;
-    padding-top: 35px;
+    margin-top: 35px;
 }
 
 .card-p {
     width: 210px;
+    margin-top: 25px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
-    padding-top: 25px;
-    padding-left: 48px;
-    color: white;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
 
 .btn {
-display: block;
-padding-left: 48px;
-padding-top: 83px;
-margin-bottom: 58px;
-
-}
-
-.btn a:hover {
-    background-color: #E28625;
-    color: white;
-}
-
-.btn a {
-   padding: 12px 32px 12px 32px;
+    display: block;
+    margin-top: 83px;
+    padding: 12px 32px 12px 32px;
     border: 2px solid #fff;
     border-radius: 35px;
     color: #E28625;
     background-color: #fff;
-
+    width: 88px;
+    transition: all 0.5s ease;
 }
 
-.blue a {
-    color: #006971;;
+.btn:hover {
+    background-color: #E28625;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+
+
+.blue {
+    color: #006971;
+
+
 }
 
 .blue {
     background-color: #006971;
     width: 300px;
+
 }
 
-.blue .btn a:hover{
+.blue:hover {
     background-color: #006971;
     color: white;
 }
 
-.dark a {
-    color: #004140;;
+.dark {
+    color: #004140;
+
 }
-.dark .btn a:hover {
+
+.dark:hover {
     background-color: #004140;
     color: white;
+
 }
 
 .dark {
     background-color: #004140;
     width: 300px;
-}
-/* 
-.blue-card {
-    background-color: #006971;
-    width: 300px;
-}
-
-.blue-card h2 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 40px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: white;
 
 }
-
-.blue-card p {
-    font-size: 15px;
-    line-height: 25px;
-}
-
-.dark-card {
-    background-color: #004140;
-    width: 300px;
-}
-
-.dark-card h2 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 40px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: white;
-}
-
-.dark-card p {
-    font-size: 15px;
-    line-height: 25px;
-    line-height: 25px;
-} */
