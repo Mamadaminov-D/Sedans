@@ -42,6 +42,7 @@
 }
 
 .card-p {
+    font-family: 'Lexend Deca', sans-serif;
     width: 210px;
     margin-top: 25px;
     font-family: "Lexend Deca";
@@ -56,14 +57,15 @@
 
 .btn {
     display: block;
-    margin-top: 83px;
+    margin-top: 88px;
     padding: 12px 32px 12px 32px;
     border: 2px solid #fff;
     border-radius: 35px;
     color: #E28625;
     background-color: #fff;
-    width: 88px;
+    width: 90px;
     transition: all 0.5s ease;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .btn:hover {
@@ -76,34 +78,34 @@
 
 .blue {
     color: #006971;
-
-
-}
-
-.blue {
     background-color: #006971;
     width: 300px;
-
+    
+}
+.blue1 {
+    color: #006971;
 }
 
-.blue:hover {
+
+
+.blue1:hover {
     background-color: #006971;
     color: white;
 }
 
-.dark {
+
+
+.dark1:hover {
+    background-color: #004140;
+    color: white;
+}
+
+.dark1{
     color: #004140;
-
-}
-
-.dark:hover {
-    background-color: #004140;
-    color: white;
-
 }
 
 .dark {
     background-color: #004140;
     width: 300px;
-
+    color: #004140;
 }
